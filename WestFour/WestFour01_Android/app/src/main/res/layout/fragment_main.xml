@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/idNavDrawerMenu"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:background="@drawable/menu"
+            android:layout_marginEnd="10sp"/>
+        <EditText
+            android:id="@+id/idSearchEv"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:background="@drawable/corner_search"
+            android:hint="@string/main_page_search"
+            android:paddingStart="20sp"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="@null" />
+
+        <Button
+            android:id="@+id/idSearchBtn"
+            android:layout_width="40sp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10sp"
+            android:background="@drawable/search"/>
+    </LinearLayout>
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/idNavBottomHostFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@id/idNavBottom"
+        app:navGraph="@navigation/nav_bottom_navigation"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idNavBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/colorPrimary"
+        app:itemIconTint="@drawable/selector_nav_bottom"
+        app:itemTextColor="@drawable/selector_nav_bottom"
+        app:menu="@menu/nav_bottom_menu" />
+
+</RelativeLayout>

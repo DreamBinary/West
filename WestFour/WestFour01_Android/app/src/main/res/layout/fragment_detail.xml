@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/idNovelDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"/>
+
+    <ScrollView
+        android:layout_below="@id/idNovelDetailName"
+        android:layout_above="@id/linear"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/idNovelIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/idNovelNegative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background= "@color/transparent"
+            android:text="@string/novel_detail_negative"
+            android:textSize="25sp" />
+        <CheckBox
+            android:id="@+id/idNovelCollect"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:button="@null"
+            android:background="@drawable/selector_collection" />
+        <Button
+            android:id="@+id/idNovelPositive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="@string/novel_detail_positive"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</RelativeLayout>

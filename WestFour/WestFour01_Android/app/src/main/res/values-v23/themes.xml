@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WF" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#A3A3A3</item>
+        <item name="colorPrimaryDark">#B3B3B3</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:textColor">#444444</item>
+        <item name="strokeColor">#80B3B3B3</item>
+    </style>
+</resources>

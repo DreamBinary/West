@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idNavDrawerHistory"
+            android:icon="@drawable/history"
+            android:title="@string/nav_drawer_history" />
+        <item
+            android:id="@+id/idNavDrawerCollection"
+            android:icon="@drawable/collection1"
+            android:title="@string/nav_drawer_collection" />
+        <item
+            android:id="@+id/idNavDrawerDownload"
+            android:icon="@drawable/download"
+            android:title="@string/nav_drawer_download" />
+        <item
+            android:id="@+id/idNavDrawerMusic"
+            android:icon="@drawable/music1"
+            android:title="@string/nav_drawer_music" />
+    </group>
+
+
+</menu>

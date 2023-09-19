@@ -1,0 +1,39 @@
+<resources>
+    <string name="login_username">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login_remember">记住密码</string>
+    <string name="login_autologin">下次自动登录</string>
+    <string name="login_sign_in">登录</string>
+    <string name="login_sign_up">注册</string>
+
+    <string name="main_page_search">搜索</string>
+    <string name="nav_hello1">你好呀</string>
+    <string name="nav_hello2">点击/长按猫试试</string>
+    <string name="setting_sign_out">退出登录</string>
+    <string name="setting_logout">注销账号</string>
+    <string name="nav_bottom_recommend">推荐</string>
+    <string name="nav_bottom_bookshelf">书城</string>
+    <string name="nav_drawer_history">阅读记录</string>
+    <string name="nav_drawer_collection">小说收藏</string>
+    <string name="nav_drawer_download">离线小说</string>
+    <string name="nav_drawer_music">背景音乐</string>
+    <string name="nav_drawer_setting">设置</string>
+    <string name="nav_drawer_night">夜间</string>
+    <string name="clear">清空</string>
+    <string name="music_name">歌名</string>
+    <string name="music_artist">歌手</string>
+    <string name="music_tips">tips: 单击图片播放/暂停-长按图片切换</string>
+
+
+    <string name="novel_detail_negative">取消</string>
+    <string name="novel_detail_positive">阅读</string>
+    <string name="reading_content">选择章节</string>
+
+    <string name="reading_pop_font">字体</string>
+    <string name="reading_pop_brightness">亮度</string>
+    <string name="reading_pop_background">背景</string>
+    <string name="reading_pop_content">目录</string>
+    <string name="reading_pop_music">音乐</string>
+
+
+</resources>

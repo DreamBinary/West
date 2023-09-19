@@ -1,0 +1,24 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(»áƒÃ
+D
+java:S37405"/Provide the parametrized type for this generic.(­ş©D
+J
+java:S3740?"/Provide the parametrized type for this generic.(¿ƒÓıÿÿÿÿ
+J
+java:S3740?"/Provide the parametrized type for this generic.(¿ƒÓıÿÿÿÿ
+J
+java:S3740A"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+J
+java:S3740A"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ã‡½û8’ˆÀ‰æ/
+:
+java:S11682"$Return an empty map instead of null.(¥¹ï
+A
+java:S1168]"+Return an empty collection instead of null.(¥¹ï
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(éĞÚĞ
+t
+java:S2293?"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿ƒÓıÿÿÿÿ
+…
+java:S13195"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(­ş©D

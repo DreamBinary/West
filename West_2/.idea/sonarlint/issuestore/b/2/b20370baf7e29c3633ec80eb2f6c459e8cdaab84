@@ -1,0 +1,30 @@
+
+[
+java:S2134	"@Don't extend "Thread", since the "run" method is not overridden.(Á’Ğˆúÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ8­Ñ/
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+F
+java:S2446"0"notify" may not wake up the appropriate thread.(Î÷Ìá
+f
+java:S2236"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(Î÷Ìá
+f
+java:S2236"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(¡“÷Ğ
+P
+java:S2274":Remove this call to "wait" or move it into a "while" loop.(¡“÷Ğ
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(½îÚ€ùÿÿÿÿ8£É­Ñ/
+{
+java:S2142&"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8‹€©Ñ/
+M
+java:S2446$"0"notify" may not wake up the appropriate thread.(Î÷Ìá8‹€©Ñ/
+m
+java:S2236$"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(Î÷Ìá8‹€©Ñ/
+„
+java:S2273$"gMove this call to "notify()" into a synchronized block to be sure the monitor on "MyThreadOne" is held.(Î÷Ìá8‹€©Ñ/
+m
+java:S2236%"PRefactor the synchronisation mechanism to not use a Thread instance as a monitor(¡“÷Ğ8‹€©Ñ/
+‚
+java:S2273%"eMove this call to "wait()" into a synchronized block to be sure the monitor on "MyThreadOne" is held.(¡“÷Ğ8‹€©Ñ/
+W
+java:S2274%":Remove this call to "wait" or move it into a "while" loop.(¡“÷Ğ8‹€©Ñ/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÂŞ ˆşÿÿÿÿ8ÄóõœÑ/

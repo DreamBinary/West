@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/idNavDrawerMain">
+
+    <fragment
+        android:id="@+id/idNavDrawerMain"
+        android:name="com.example.westfour01.main.MainFragment"
+        tools:layout="@layout/fragment_main"/>
+
+    <fragment
+        android:id="@+id/idNavDrawerHistory"
+        android:name="com.example.westfour01.drawer.HistoryFragment"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/idNavDrawerCollection"
+        android:name="com.example.westfour01.drawer.CollectionFragment"
+        tools:layout="@layout/fragment_collection" />
+
+    <fragment
+        android:id="@+id/idNavDrawerDownload"
+        android:name="com.example.westfour01.drawer.DownloadFragment"
+        tools:layout="@layout/fragment_download" />
+
+    <fragment
+        android:id="@+id/idNavDrawerMusic"
+        android:name="com.example.westfour01.drawer.MusicFragment"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/idNavSettingFragment"
+        android:name="com.example.westfour01.drawer.SettingsFragment"
+        />
+
+
+</navigation>

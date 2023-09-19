@@ -1,0 +1,17 @@
+
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 1
+  datasource:
+    username: root
+    password: mysqlcxq
+    url: jdbc:mysql://localhost:3306/west_four
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    database: mysql
+server:
+  port: 8888

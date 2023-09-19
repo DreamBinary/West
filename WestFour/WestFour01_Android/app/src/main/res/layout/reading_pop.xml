@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginBottom="5sp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/reading_pop_brightness"/>
+        <SeekBar
+            android:id="@+id/idBrightnessSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_margin="5sp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/reading_pop_font"/>
+        <SeekBar
+            android:id="@+id/idFontSeekBar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_margin="5sp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/reading_pop_background"/>
+        <RadioGroup
+            android:id="@+id/idColorGroup"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="30sp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/idColorBtn0"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginEnd="30sp"
+                android:background="@drawable/selector_color_a"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/idColorBtn1"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginEnd="30sp"
+                android:background="@drawable/selector_color_b"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/idColorBtn2"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginEnd="30sp"
+                android:background="@drawable/selector_color_c"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/idColorBtn3"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginEnd="30sp"
+                android:background="@drawable/selector_color_d"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/idNightBtn"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginEnd="30sp"
+                android:background="@drawable/night"
+                android:button="@null"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="5sp"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/idPopContent"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/menu" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:gravity="center_horizontal"
+                android:text="@string/reading_pop_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/idPopMusic"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_gravity="center_horizontal"
+                android:button="@null"
+                android:background="@drawable/selector_pop_music" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:gravity="center_horizontal"
+                android:text="@string/reading_pop_music"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="?attr/colorPrimary">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/idCircle1"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:src="@drawable/drawer_header"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/idCircle2"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:src="@drawable/drawer_header"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/idCircle3"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:src="@drawable/drawer_header"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/idCircle4"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:src="@drawable/drawer_header"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/idNavDrawerHeaderImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:src="@drawable/cat"
+            android:focusable="true" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:text="@string/nav_hello1"
+        android:gravity="center_horizontal"
+        android:textColor="?attr/colorAccent"
+        android:layout_marginBottom="5dp"
+        android:textSize="15sp"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/nav_hello2"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+</RelativeLayout>

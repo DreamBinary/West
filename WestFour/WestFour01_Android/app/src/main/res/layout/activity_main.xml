@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android|.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_drawerLayout"
+    tools:context=".MainActivity"
+    android:background="?attr/colorPrimary"
+    tools:openDrawer="start">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/idMain"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/nav_drawer_navigation" />
+
+        <com.example.westfour01.other.DragFloatActionButton
+            android:id="@+id/idFloatBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/cat" />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/idNavDrawerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_drawer_menu">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_gravity="bottom">
+            <Button
+                android:id="@+id/idNavSettingBtn"
+                android:layout_marginStart="20dp"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:background="@drawable/setting"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idNavSettingBtn"
+                android:layout_alignStart="@+id/idNavSettingBtn"
+                android:gravity="center_horizontal"
+                android:text="@string/nav_drawer_setting"/>
+            <Button
+                android:id="@+id/idNavNight"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/idNavSettingBtn"
+                android:background="@drawable/night" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idNavNight"
+                android:layout_alignStart="@+id/idNavNight"
+                android:gravity="center_horizontal"
+                android:text="@string/nav_drawer_night"/>
+        </RelativeLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
